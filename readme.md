@@ -9,7 +9,7 @@ nodjs
 
 請依照[連結](https://cloud.google.com/iam/docs/creating-managing-service-account-keys)的說明創建一個服務帳戶並產生一個私鑰的json檔案，請將檔名改為**private_key.json**。
 1. 請自行創建一個google API專案。
-2. 建立iam帳戶，並且以json格式存入本地電腦，然後修改文件名稱為 `private_key.json` ，最後放入本專案跟目錄。
+2. 建立iam帳戶，並且以json格式存入本地電腦，然後修改文件名稱為 `private_key.json` ，最後放入本專案根目錄。
 3. 選擇剛剛建立的google API專案並開啟google drive API服務。
 ### private_key.json
 ```
