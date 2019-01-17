@@ -38,6 +38,7 @@ https://drive.google.com/drive/u/1/folders/[FOLDER_PATH]
 ```
 const GOOGLE_DRIVE_FOLDER = '[FOLDER_PATH]';
 ```
+> 請記得開啟google雲端共用資料夾的權限，也可以增加iam服務帳戶到用享資料夾
 
 ## Step3. 修改Gogs服務的路徑
 確認gogs安裝路徑，並且開啟 `index.js` 檔案並修改GOGS的安裝路徑(GOGS_PATH)
